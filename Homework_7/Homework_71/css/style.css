@@ -1,0 +1,37 @@
+body{ 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("moonlight.jpg");
+	background-color: green;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 600px;
+
+ }
+.container{
+    display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+.item{
+	 margin: 20px auto;
+	 color:black;
+}
+#first{
+	font-size: 44px;
+	}
+#second{
+	font-size: 18px;
+}
+button{
+	height: 30px;
+	width: 100px;
+	border-radius: 20px;
+	background-color: transparent;
+	font-size: 10px;
+	border: 1px solid white;
+}
+
+
+
+

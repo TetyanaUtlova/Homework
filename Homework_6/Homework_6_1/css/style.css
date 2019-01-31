@@ -1,0 +1,39 @@
+ body{
+	display: flex;
+	justify-content:center;
+	height: 310px;
+	width:860px;
+	border: 1px solid black;
+	margin: 20px;
+}
+#main{
+	height: 160px;
+	width: 680px;
+	display: flex;
+    justify-content: space-around;	
+}
+.square {
+	display: flex;
+	height: 142px;
+	width: 142px;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	margin-top: 15px;
+}
+ #one{
+	background-color: red;
+}
+#two{
+	background-color: darkred;
+}
+#three{
+	background-color: blueviolet;
+}
+#four{
+	background-color:green;
+}
+
+

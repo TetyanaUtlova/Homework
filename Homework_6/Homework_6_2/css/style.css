@@ -1,0 +1,47 @@
+
+ body{
+	background-image: rgb(39, 6, 39) url(img/background.jpg) no-repeat; 
+	margin: 0;
+	box-sizing: border-box;
+	color: white;
+	font-family: sans-serif;
+	text-align: center;
+}
+.square {
+	height: 300px;
+	width: 210px;
+	display: inline-block;
+	margin-top: 100px;
+	text-align: center;
+	box-sizing: border-box;
+	position: relative;
+	font-size: 14px;
+}
+header{
+	height: 80px;
+	width: 650px;
+	margin: 0 auto;
+	margin-top: 70px;
+	font-size: 16x;
+}
+p{
+	color: grey;
+}
+img{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+}
+button{
+	color: white;
+	height: 40px;
+	width: 150px;
+	border: none;
+	border-radius: 30px;
+	background-image: linear-gradient(to right, rgb(72, 8, 131), rgb(206, 26, 206));
+}
+
+
+
+
+

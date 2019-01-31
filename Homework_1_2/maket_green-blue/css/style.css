@@ -1,0 +1,69 @@
+header {background:lightblue;
+    width: all;
+    height: 50px;
+    padding-left: 20px; 
+    box-sizing: border-box;
+    padding-top: 15px}
+body{
+	margin: 0;
+	color: white;
+	font-size: 26px;
+	height: 650px;
+	width: 1200;
+	font: bold;
+	box-sizing: border-box;
+}
+nav {
+	background: rgb(119, 199, 119);
+	width: all;
+	height: 34px;
+	color: white;
+	font-size: 26px;
+	padding: 10px 10px;
+}
+#sidebar{background: rgb(99, 130, 224);
+	width: 20%;
+	height: 520px;
+	position: relative;
+	float: left;	
+	box-sizing: border-box;
+	padding: 30px 20px 0px 20px; 
+}
+#content {
+	background: rgb(148, 186, 212);
+	width: 60%;
+	height: 520px;
+	float: left;
+	position: relative;
+	box-sizing: border-box;
+	padding: 30px 20px 0px 50px;
+}
+aside {
+	background:rgb(101, 134, 235);
+	width: 20%;
+	height: 520px;
+	position: relative;
+	float: left;
+	box-sizing: border-box;
+	padding: 30px 20px 30px;
+}
+footer{
+	background: skyblue;
+    width: all;
+    padding-left: 20px;
+}
+a{
+	color: white;
+}
+#firs{
+	margin-top: 100px;
+}
+#second{
+	margin-top: 80px;
+}
+#third{
+	margin-top: 50px;
+}
+#events{
+	width: 90px;
+}

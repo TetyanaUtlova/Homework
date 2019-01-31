@@ -1,0 +1,29 @@
+table {
+	width: 692px;
+	height: 320px;
+    font-size: 32px;
+	font:bold;
+	border: 1px;
+	border-collapse: collapse;
+	background-color: rgb(43,62,80);
+	color:white;
+	border: 10px solid;
+	text-align: right;
+	border-color:white;
+}
+.thinner{
+	border: 6px solid;
+	border-collapse: collapse;
+	width: 100px;
+	height: 100px;
+}
+td{
+	border: 6px solid;
+	vertical-align: bottom;
+}
+.fat{
+	border: 10px solid;
+	text-align: right;
+	width: 25%;
+	height: 50%;
+}
