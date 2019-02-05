@@ -1,0 +1,19 @@
+
+.main_block{
+	border: 1px solid black;
+	width: 530px;
+	height: 280px;
+	margin-top: 30px;
+}
+.row_block1{
+	height: 110px;
+}
+.row_block2{
+	height: 60px;
+}
+.block {
+	border: 1px solid black;
+}
+
+
+

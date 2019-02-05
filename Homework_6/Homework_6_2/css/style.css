@@ -1,6 +1,6 @@
 
  body{
-	background-image: rgb(39, 6, 39) url(img/background.jpg) no-repeat; 
+	background-image: rgb(39, 6, 39) url(..img/background.jpg) no-repeat; 
 	margin: 0;
 	box-sizing: border-box;
 	color: white;

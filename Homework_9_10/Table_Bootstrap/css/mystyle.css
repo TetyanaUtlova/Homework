@@ -1,0 +1,31 @@
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+.conteiner-fluid{
+	width: 800px;
+	height: 500px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items:center;
+}	
+.col-sm-6{
+	background-color: rgb(43,62,80);
+	height: 152px;
+	width: 152px;
+}
+.col-sm-4{
+	background-color: rgb(43,62,80);
+	height: 100px;
+	width: 100px;
+}
+div{
+	border: 2px solid white;
+}
+.row{
+	margin: 0px;
+}
+
+
