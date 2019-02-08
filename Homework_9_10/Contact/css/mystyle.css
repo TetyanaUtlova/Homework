@@ -39,13 +39,15 @@ header{
 .cont{
     color: #afedeb;
 }
-.footer{
+footer{
     background-color: #141414;
     color: #ffffff;
     height: 280px;
-    font-size: 14pt;
+    width: 100%;
+    font-size: 12px;
     margin-top: 80px;
     padding-left: 95px;
+    padding-top: 80px;   
 }
 div{
     font-size: 13pt;
@@ -58,6 +60,7 @@ button{
     height: 55px;
     color: white;
     margin: 15px 0px 80px 0px;
-
 }
-© 2019 GitHub, Inc. 
+a{
+    color: white;
+} 

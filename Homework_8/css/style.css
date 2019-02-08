@@ -85,6 +85,7 @@ button{
 	font: bolder;
 	background-color: aliceblue;
 	/* opacity: 0.7; */
+	
 }
 .act{
 	opacity: 0.6;
@@ -92,14 +93,7 @@ button{
 .numeral{
 	font-weight: bold;
 }
-button:hover {
-	background-color: white;
-	font-weight: 700;
-}
-.numeral:hover{
-	background-color: rgb(136, 181, 187);
-}
-input:hover{
-	background-color: whitesmoke;
+button:hover{
+	background: rgb(183, 238, 220);
 }
 
