@@ -1,0 +1,32 @@
+.main_block {
+  border: 1px solid black;
+  width: 530px;
+  height: 280px;
+  margin-top: 30px; }
+
+.row_block1 {
+  height: 40%; }
+
+.row_block2 {
+  height: 20%; }
+
+.block {
+  border: 1px solid black; }
+
+@media (max-width: 576px) {
+  .block {
+    background-color: #190950; } }
+@media (min-width: 576px) {
+  .block {
+    background-color: #94819b; } }
+@media (min-width: 768px) {
+  .block {
+    background-color: #0066ff; } }
+@media (min-width: 992px) {
+  .block {
+    background-color: #a3065c; } }
+@media (min-width: 1200px) {
+  .block {
+    background-color: #3668c4; } }
+
+/*# sourceMappingURL=practic.css.map */

@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <script src="js/bootstrap.min.js"></script>
+    
+    <title>My Favourite Calc</title>
+  </head>
+  <body>  	
+    
+<div class="container pb-calc-container">
+        <div class="row" class="container1" style="height:50px;">
+            <div class="col-4" class="sign">Calculator</div>
+            <div class="col-4" class="sign">&nbsp;</div>
+            <div class="col-1" class="sign"><input type="button" style="background-color:transparent; border: none" value="&ndash;"></div>
+            <div class="col-1" class="sign"><input type="button" style="background-color:transparent; border: none" value="&#10066;"></div>
+            <div class="col-1" class="sign"><input type="button" style="background-color:transparent; border: none" value="X"></div> 
+        </div>
+
+        <div class="row" class="container2" style="height:30px;">
+                <div class="col-1" class="sign"><input type="button" style="background-color:transparent; border: none" value="&#8801;"></div>
+                <div class="col-4" class="sign">Standart</div>
+                <div class="col-5" class="sign">&nbsp;</div>  
+                <div class="col-1" class="sign"><input type="button" style="background-color:transparent; border: none" value="&#8634;"></div>
+            </div>
+        <div class="row" class="container3 calc_display">
+            <div class="col-12" class="sign"><input type="text" id="history" style="background-color:transparent;border: none; text-align: right;"></div>  
+            <div class="col-12" class="sign"><input disabled type="text" value="0" id="display" class="calc_display_input" placeholder ="000000000000" style="background-color:transparent;border: none; text-align: right; width:95%"></div> 
+        </div>    
+
+
+        <div class="row">
+                <div class="col-2"class="memory">
+                    <button class="btn pb-memo-btn">MC</button>
+                </div>
+                <div class="col-2">
+                    <button class="btn pb-memo-btn">MR</button>
+                </div>
+                <div class="col-2">
+                    <button class="btn pb-memo-btn">M+</button>
+                </div>
+                <div class="col-2">
+                    <button class="btn pb-memo-btn">M-</button>
+                </div>
+                <div class="col-2">
+                    <button class="btn pb-memo-btn">M</button>
+                </div>
+                <div class="col-2">
+                    <button class="btn pb-memo-btn">M</button>
+                </div>
+
+            </div>
+        <div class="row">
+                <div class="col-3">
+                    <button class="btn pb-calc-btn operation" value = "%">%</button>
+                </div>
+                <div class="col-3">
+                    <button class="btn pb-calc-btn operation" value="sqrt">&radic;</button>
+                </div>
+                <div class="col-3">
+                    <button class="btn pb-calc-btn operation" value="sqr"><i>x<sup>2</sup></i></button>
+                </div>
+                <div class="col-3">
+                    <button class="btn pb-calc-btn operation" value="1/x"><i>1/x</i></span></button>
+                </div>
+           </div>
+           <div class="row">
+                <div class="col-3">
+                    <button class="btn pb-calc-btn clear_btn" id="ce" value="CE">CE</button>
+                </div>
+                <div class="col-3">
+                    <button class="btn pb-calc-btn clear_btn" id="c" value="C">C</button>
+                </div>
+                <div class="col-3">
+                    <button class="btn pb-calc-btn clear_btn" id="cs" value="CS">&#x21e6;</button>
+                </div>
+                <div class="col-3">
+                    <button class="btn pb-calc-btn operation" value="/">/</button>
+                </div>
+           </div>
+           <div class="row">
+                <div class="col-3">
+                    <button class="btn pb-calc-btn number" value="7">7</button>
+                </div>
+                <div class="col-3">
+                    <button class="btn pb-calc-btn number" value="8">8</button>
+                </div>
+                <div class="col-3">
+                    <button class="btn pb-calc-btn number" value="9">9</button>
+                </div>
+                <div class="col-3">
+                    <button class="btn pb-calc-btn operation" value="*">x</button>
+                </div>
+           </div>
+           <div class="row">
+                <div class="col-3">
+                    <button class="btn pb-calc-btn number" value="4">4</button>
+                </div>
+                <div class="col-3">
+                    <button class="btn pb-calc-btn number" value="5">5</button>
+                </div>
+                <div class="col-3">
+                    <button class="btn pb-calc-btn number" value="6">6</button>
+                </div>
+                <div class="col-3">
+                    <button class="btn pb-calc-btn operation" value="-">-</button>
+                </div>
+           </div>
+           <div class="row">
+                <div class="col-3">
+                    <button class="btn pb-calc-btn number" value="1">1</button>
+                </div>
+                <div class="col-3">
+                    <button class="btn pb-calc-btn number" value="2">2</button>
+                </div>
+                <div class="col-3">
+                    <button class="btn pb-calc-btn number" value="3">3</button>
+                </div>
+                <div class="col-3">
+                    <button class="btn pb-calc-btn operation" value="+">+</span></button>
+                </div>
+           </div>
+           <div class="row">
+                <div class="col-3">
+                    <button class="btn pb-calc-btn operation" value="+-">&plusmn;</button>
+                </div>
+                <div class="col-3">
+                    <button class="btn pb-calc-btn number" value="0">0</button>
+                </div>
+                <div class="col-3">
+                    <button class="btn pb-calc-btn" id="decimal" value=".">.</button>
+                </div>
+                <div class="col-3">
+                    <button class="btn pb-calc-btn operation" id="result" value="=">=</button>
+                </div>
+           </div>
+
+
+</div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+    
+
+    
+  </body>
+</html>
